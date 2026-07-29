@@ -29,6 +29,7 @@ class ResumesRepository():
 
         db_resume = Resume(
             candidate=candidate_id,
+            email= resume.email,
             vaga=resume.vaga,
             email_text=resume.email_text,
             data=resume.data
